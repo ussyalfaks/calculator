@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    background: rgba(255, 106, 255);
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    outline:none;
+    border-radius: 0;
+}
+.main{
+    width: 342px;
+    height: 560px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+.result{
+    height: 20%;
+    position: relative;
+    background:black;
+    border-top: 3px solid rgba(0,0,0,.05);
+    border-bottom: 3px solid rgba(0,0,0,.05);
+}
+.upper-value{
+    position: absolute;
+    text-align: right;
+    bottom: 30%;
+    right: 5%;
+    font-size: 20px;
+    color: #be7179;
+}
+.lower-value{
+    position: absolute;
+    text-align: right;
+    bottom: 2%;
+    right: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+
+.operator,
+.number{
+    width: 85px;
+    height: 75px;
+    border: none;
+    background-color: #f7f7f7;
+    font-weight: 500;
+    color: #676767;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow:-3px -3px 10px rgba(255,255,255,.05),
+                    3px 3px 15px rgba(0,0,0,.5);
+}
+
+
+
+.op1{
+    background: #894eda;
+    color: white;
+}
+
+.equal{
+    width: 169px;
+   background: #e62f89;
+   color: white;
+}
+.number:hover{
+    box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
+                        inset 1px 1px 3px rgba(0,0,0,.8);
+}
+
+.equal:hover{
+    background: orange;
+}
+.op1:hover{
+     box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
+                        inset 1px 1px 3px rgba(0,0,0,.8);
+}
